@@ -8,6 +8,20 @@ body{
 
 
 input{
-    
-    border-color: #5f9341;
+    width: 100%;
+    padding: 10px; 
+    /* to make the full width include the padding */
+    box-sizing: border-box; 
+    margin-bottom: 5px;
+    border-style: 2px solid #5f9341;
+}
+
+
+button{
+    padding: 10px 20px;
+    background-color: #5f9341;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
