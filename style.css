@@ -20,8 +20,14 @@ button{
     background-color: #5f9341;
     color: white;
     font-weight: bold;
-    border: none;
+    /* border: none; */
+    border: 1px solid #5f9341;
     cursor: pointer;
+}
+
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
 }
 
 ul{
